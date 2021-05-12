@@ -4,28 +4,126 @@
     padding: 0;
     margin: 0;
 }
+main
+{
+    display: flex;
+}
+aside
+{
+    background-color: rgb(14, 13, 13);
+    height: calc(100vh - 100px);
+    color: white;
+}
 
-.container {
+.column
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+
+.column ul
+{
+    list-style-type: none ;
 }
 
 
-aside>div
+
+section
 {
-    background-color: grey;
+    background-color: rgb(27, 28, 39);
     height: calc(100vh - 100px) ;
+    overflow-y: scroll;
+}
+
+
+footer
+{
+    background-color: rgb(73, 72, 72);
+    height: 100px;
+    position: fixed;
+    z-index: 1001;
+    width: 100%;
+}
+
+.relative
+{
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.bottom
+{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+
+}
+
+
+section nav:first-child
+{
+    background-color: rgb(36, 35, 35);
+    height: 100px;
     
 }
 
-main>div
+nav 
 {
-    background-color: black;
-    height: calc(100vh - 100px) ;
-
+    text-align: center;
+    margin: auto;
+}
+.menu
+{
+    list-style-type: none;
 }
 
+.menu>li{
+    padding: 10px;
+    color: lightgray;
+    font-weight: bold;
+    display: inline-block;
+}
 
-footer>div
+.centra
 {
-    background-color: brown;
-    height: 100px;
+    position: absolute;
+    transform: translate(-50% , 0%);
+    top: 50%;
+    left: 50%;
+}
+
+.bottone-nav
+{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border:1px white  solid;
+    padding: 15px;
+    font-size: 20px;
+    float: right;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 1001;
+    right: 0%;
+}
+
+section h1
+{
+    color: white;
+}
+section h5
+{
+    color: lightgray;
+}
+.a{
+    display: flex;
+    justify-content: space-evenly;
 }
