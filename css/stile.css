@@ -4,3 +4,29 @@
     padding: 0;
     margin: 0;
 }
+
+.container {
+     
+}
+
+
+aside>div
+{
+    background-color: grey;
+    height: calc(100vh - 100px) ;
+    
+}
+
+main>div
+{
+    background-color: black;
+    height: calc(100vh - 100px) ;
+
+}
+
+
+footer>div
+{
+    background-color: brown;
+    height: 100px;
+}
