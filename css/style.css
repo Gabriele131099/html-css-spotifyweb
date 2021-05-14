@@ -34,7 +34,14 @@
     flex-basis: 0;
     max-width: 100%;
 }
-
+aside div ul li span, aside h3
+{
+  display: none;
+}
+#tablet-desktop
+{
+    display: none;
+}
 .col-xs-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
 .col-xs-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
 .col-xs-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -68,6 +75,15 @@
         max-width: 100%;
       }
 
+      aside div ul li span
+      {
+        display: block;
+      }
+
+      #tablet-desktop
+      {
+          display: none;
+      }
       .col-sm-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
       .col-sm-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
       .col-sm-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -102,7 +118,24 @@
     flex-basis: 0;
     max-width: 100%;
   }
+  #tablet-desktop
+{
+    display: block;
+}
+#cell
+{
+  display: none;
+}
+  aside div ul li span
+  {
+    display: block;
+  }
 
+  aside
+  {
+    padding: 10px 15px;
+
+  }
   .col-md-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
   .col-md-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
   .col-md-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -137,7 +170,18 @@
     flex-basis: 0;
     max-width: 100%;
   }
-
+  aside div ul li span
+  {
+    display: block;
+  }
+  #tablet-desktop
+  {
+      display: block;
+  }
+  #cell
+  {
+    display: none;
+  }
   .col-lg-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
   .col-lg-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
   .col-lg-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}

@@ -18,6 +18,25 @@ aside
     color: grey;
 }
 
+#tablet-desktop
+{
+    width: 150px;
+}
+
+aside ul li 
+{
+    display: flex;
+    align-items: center;
+}
+
+aside svg{
+    width: 30px;
+}
+
+aside ul li span
+{
+    padding: 10px;
+}
 aside h2
 {
     padding-top: 30px;
@@ -98,8 +117,9 @@ main nav ul
 {
     list-style-type: none;
     display: flex;
-    width: 850px;
     margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 main nav ul li
 {
@@ -111,7 +131,6 @@ main section
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -128,8 +147,7 @@ section h1
 {
     max-width: 250px;
     width: 100%;
-    min-width: 50px;
-    
+    min-width: 50px; 
 }
 .cerchio
 {
@@ -159,7 +177,6 @@ footer
 
 footer>div
 {
-    border: 1px solid black;
     display: flex;
     align-items: stretch;
 
@@ -197,4 +214,8 @@ footer .img
     max-height: 100px;
     min-height: 20px;
      
+}
+.audio
+{
+
 }
