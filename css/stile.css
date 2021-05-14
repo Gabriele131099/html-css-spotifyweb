@@ -139,16 +139,18 @@ section h1
     color: white;
 }
 
+.row img
+{
+    max-width: 250px;
+    min-width: 130px;
+    width: 100%;
+}
+
 .row>div
 {
     padding: 5px;
 }
-.row img
-{
-    max-width: 250px;
-    width: 100%;
-    min-width: 50px; 
-}
+
 .cerchio
 {
     border-radius: 50%;

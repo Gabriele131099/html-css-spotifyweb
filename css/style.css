@@ -20,7 +20,6 @@
 .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 [class*="col-"] {
@@ -41,6 +40,11 @@ aside div ul li span, aside h3
 #tablet-desktop
 {
     display: none;
+}
+
+.row 
+{
+  flex-wrap: wrap;
 }
 .col-xs-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
 .col-xs-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
@@ -84,6 +88,10 @@ aside div ul li span, aside h3
       {
           display: none;
       }
+      .row 
+{
+  flex-wrap: wrap;
+}
       .col-sm-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
       .col-sm-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
       .col-sm-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -119,18 +127,21 @@ aside div ul li span, aside h3
     max-width: 100%;
   }
   #tablet-desktop
-{
-    display: block;
-}
-#cell
-{
-  display: none;
-}
+  {
+      display: block;
+  }
+  #cell
+  {
+    display: none;
+  }
   aside div ul li span
   {
     display: block;
   }
-
+  .row 
+  {
+    flex-wrap: wrap;
+  }
   aside
   {
     padding: 10px 15px;
@@ -178,6 +189,13 @@ aside div ul li span, aside h3
   {
       display: block;
   }
+  .row 
+  {
+    flex-wrap: wrap;
+  }
+
+
+
   #cell
   {
     display: none;
