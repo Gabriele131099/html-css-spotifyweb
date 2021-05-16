@@ -27,7 +27,6 @@ aside ul li
 {
     display: flex;
     align-items: center;
-    justify-content: center
 }
 
 aside svg{
@@ -240,6 +239,17 @@ footer .img
     background-color: teal;
 }
 
+.colonna-footer
+{
+    width: 25%;
+    flex-basis: 230px;
+}
+
+.colonna-footer-2
+{
+    width: 50%;
+}
+
 
 /* hover */
 
@@ -251,14 +261,4 @@ li hr
 li:hover hr
 {
     display: block;
-}
-
-div>div:hover
-{
-    background-image: url(../img/radar.jpeg);
-}
-
-div>div>img:hover
-{
-    z-index: 1000;
 }

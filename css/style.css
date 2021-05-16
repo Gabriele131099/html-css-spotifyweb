@@ -47,6 +47,10 @@ aside div ul li span, aside h3
   flex-wrap: wrap;
 }
 
+.colonna-footer-2 , .colonna-footer >li>i
+{
+    font-size: 10px;
+}
 
 .col-xs-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
 .col-xs-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
@@ -90,8 +94,14 @@ aside div ul li span, aside h3
       {
           display: none;
       }
-
-
+      .colonna-foot , .colonna-footer-2>li>i
+{
+    font-size: 15px;
+}
+aside ul li 
+{
+    justify-content: center
+}
 .row 
 {
   flex-wrap: wrap;
@@ -125,6 +135,10 @@ aside div ul li span, aside h3
 @media only screen and (min-width: 768px) {
 
   /* 12 System */
+  aside ul li 
+{
+    justify-content: start
+}
   .col-md {
     flex-grow: 1;
     flex-basis: 0;
@@ -151,6 +165,10 @@ aside div ul li span, aside h3
     padding: 10px 15px;
 
   }
+  .colonna-footer-2 , .colonna-footer>li>i
+{
+    font-size: 18px;
+}
   .col-md-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
   .col-md-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
   .col-md-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -203,6 +221,11 @@ aside div ul li span, aside h3
     min-height: 150px;
     max-height: 250px;
 }
+aside ul li 
+{
+    justify-content: start
+}
+
 
   #cell
   {
