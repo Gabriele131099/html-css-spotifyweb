@@ -27,6 +27,7 @@ aside ul li
 {
     display: flex;
     align-items: center;
+    justify-content: center
 }
 
 aside svg{
@@ -162,8 +163,8 @@ section h1
 .row-b
 {
     width: 100%;
-    max-height: 400px;
-    min-height: 200px;
+    max-height: 800px;
+    height: 100%;
 }
 
 .testo
@@ -237,4 +238,27 @@ footer .img
 {
     width: 100%;
     background-color: teal;
+}
+
+
+/* hover */
+
+li hr
+{
+    display: none;
+}
+
+li:hover hr
+{
+    display: block;
+}
+
+div>div:hover
+{
+    background-image: url(../img/radar.jpeg);
+}
+
+div>div>img:hover
+{
+    z-index: 1000;
 }
