@@ -39,7 +39,7 @@ aside div ul li span, aside h3
 }
 #tablet-desktop
 {
-    display: none;
+  display: none;
 }
 
 .row 
@@ -51,7 +51,14 @@ aside div ul li span, aside h3
 {
     font-size: 10px;
 }
-
+.lettore-audio
+{
+  display: none;
+}
+.centra li
+{
+  justify-content: center;
+}
 .col-xs-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
 .col-xs-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
 .col-xs-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -95,17 +102,21 @@ aside div ul li span, aside h3
           display: none;
       }
       .colonna-foot , .colonna-footer-2>li>i
-{
-    font-size: 15px;
-}
-aside ul li 
-{
-    justify-content: center
-}
-.row 
-{
-  flex-wrap: wrap;
-}
+      {
+          font-size: 15px;
+      }
+      aside ul li 
+      {
+          justify-content: center
+      }
+      .row 
+      {
+        flex-wrap: wrap;
+      }
+      .lettore-audio
+      {
+        display: flex;
+      }
       .col-sm-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
       .col-sm-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
       .col-sm-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -166,9 +177,17 @@ aside ul li
 
   }
   .colonna-footer-2 , .colonna-footer>li>i
-{
-    font-size: 18px;
-}
+  {
+      font-size: 18px;
+  }
+  .lettore-audio
+  {
+    display: flex;
+  }
+  .centra li
+  {
+    justify-content: start;
+  }
   .col-md-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
   .col-md-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
   .col-md-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -230,6 +249,14 @@ aside ul li
   #cell
   {
     display: none;
+  }
+  .lettore-audio
+  {
+    display: flex;
+  }
+  .centra li
+  {
+    justify-content: start;
   }
   .col-lg-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
   .col-lg-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
