@@ -46,6 +46,8 @@ aside div ul li span, aside h3
 {
   flex-wrap: wrap;
 }
+
+
 .col-xs-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
 .col-xs-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
 .col-xs-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -88,7 +90,9 @@ aside div ul li span, aside h3
       {
           display: none;
       }
-      .row 
+
+
+.row 
 {
   flex-wrap: wrap;
 }
@@ -194,7 +198,11 @@ aside div ul li span, aside h3
     flex-wrap: wrap;
   }
 
-
+  .alt
+{
+    min-height: 150px;
+    max-height: 250px;
+}
 
   #cell
   {
