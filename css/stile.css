@@ -79,7 +79,9 @@ aside ul li
 aside .scroll
 {
     overflow-y: scroll;
-    max-height: 300px;
+    max-height: 200px;
+    min-height: 10px;
+    height: 100%;
 }
 
 ::-webkit-scrollbar
@@ -89,6 +91,13 @@ aside .scroll
     width: 5px;
     border: 1px solid gray;
 }
+::-webkit-scrollbar-track {
+    background: black;
+    height: 10%;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
 
 .testo-crea-playlist
 {
