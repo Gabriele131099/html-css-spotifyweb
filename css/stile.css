@@ -386,3 +386,17 @@ aside i:hover , svg:hover
 {
     transform: scale(1.2);
 }
+
+aside ul li:hover hr
+{
+  display: flex;
+  width: 20px;
+  color: green;
+  float: left;
+  transform:rotate(90deg);
+}
+
+aside ul li hr
+{
+  display: none;
+}
