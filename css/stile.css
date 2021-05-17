@@ -149,6 +149,17 @@ section h1
     color: white;
 }
 
+section h4
+{
+    color:gray;
+    text-align: center;
+}
+
+.row-b h4
+{
+    text-align: left;
+}
+
 .testo h1{
     color: white;
     text-align: center;
