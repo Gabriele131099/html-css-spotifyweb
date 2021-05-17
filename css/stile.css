@@ -7,6 +7,7 @@
 body
 {
     font-family: 'Montserrat', serif;
+    background-color: rgb(15, 15, 15);
 }
 
 /* Aside */
@@ -44,10 +45,7 @@ aside ul li span
 {
     padding: 5px;
 }
-aside h2
-{
-    padding-top: 30px;
-}
+
 
 aside h3, aside h2
 {
@@ -79,9 +77,9 @@ aside ul li
 aside .scroll
 {
     overflow-y: scroll;
-    max-height: 200px;
-    min-height: 10px;
-    height: 100%;
+    max-height: 250px;
+    min-height: 0px;
+    
 }
 
 ::-webkit-scrollbar
@@ -93,7 +91,7 @@ aside .scroll
 }
 ::-webkit-scrollbar-track {
     background: black;
-    height: 10%;
+    height: 5%;
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
@@ -194,10 +192,10 @@ section h4
 .colonna-section img 
 {
     max-width: 250px;
-    min-width: 130px;
+    min-width: 100px;
     width: 100%;
     max-height: 250px;
-    min-height: 130px;
+    min-height: 100px;
     height: 100%;
 }
 .colonna-section >i
@@ -357,7 +355,7 @@ footer .img
 }
 .punto-auto
 {
-    position: absolute;
+    position: relative;
     left: 0%;
     height: 1px;
     background-color: white;
@@ -449,3 +447,5 @@ aside ul li hr
 {
     display: none;
 }
+
+
