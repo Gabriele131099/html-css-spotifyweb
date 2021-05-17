@@ -59,6 +59,12 @@ aside div ul li span, aside h3
 {
   justify-content: center;
 }
+.opzioni-audio ul .col-xs-1 i
+{
+  font-size: 14px;
+}
+
+
 .col-xs-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
 .col-xs-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
 .col-xs-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -117,6 +123,11 @@ aside div ul li span, aside h3
       {
         display: flex;
       }
+      .opzioni-audio ul li .col-xs-1 i
+      {
+        font-size: 18px;
+      }
+     
       .col-sm-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
       .col-sm-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
       .col-sm-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -188,6 +199,10 @@ aside div ul li span, aside h3
   {
     justify-content: start;
   }
+  .opzioni-audio ul li .col-xs-1 i
+  {
+    font-size: 20px;
+  }
   .col-md-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
   .col-md-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
   .col-md-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
@@ -245,6 +260,11 @@ aside ul li
     justify-content: start
 }
 
+.colonna-footer
+{
+  display: flex;
+  flex-direction: row;
+}
 
   #cell
   {
@@ -258,6 +278,14 @@ aside ul li
   {
     justify-content: start;
   }
+  .opzioni-audio ul li .col-xs-1 i
+  {
+    font-size: 24px;
+  }
+  .icon-grande
+{
+    font-size: 28px;
+}
   .col-lg-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
   .col-lg-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
   .col-lg-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
