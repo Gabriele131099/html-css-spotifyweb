@@ -63,6 +63,10 @@ aside div ul li span, aside h3
 {
   font-size: 14px;
 }
+.opzioni-audio ul i
+{
+  display: none;
+}
 
 
 .col-xs-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
@@ -127,7 +131,10 @@ aside div ul li span, aside h3
       {
         font-size: 18px;
       }
-     
+      .opzioni-audio ul i
+      {
+        display: flex;
+      }
       .col-sm-1  {flex-basis: calc((100% / 12) *  1); max-width: calc((100% / 12) *  1);}
       .col-sm-2  {flex-basis: calc((100% / 12) *  2); max-width: calc((100% / 12) *  2);}
       .col-sm-3  {flex-basis: calc((100% / 12) *  3); max-width: calc((100% / 12) *  3);}
