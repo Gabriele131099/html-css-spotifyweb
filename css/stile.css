@@ -4,6 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body
+{
+    font-family: 'Montserrat', serif;
+}
 
 /* Aside */
 aside
@@ -105,7 +109,7 @@ main header
     padding: 15px 20px;
     color: white;
     position: fixed;
-    right: 0px;
+    right: 20px;
     top: 20px;
 }
 
@@ -384,6 +388,8 @@ footer .img
  nav li hr
 {
     display: none;
+    border: 1px solid green;
+
 }
 
 nav li:hover hr
@@ -402,12 +408,21 @@ aside ul li:hover hr
 {
   display: flex;
   width: 20px;
-  color: green;
-  float: left;
   transform:rotate(90deg);
 }
 
 aside ul li hr
 {
   display: none;
+  border: 1px solid green;
+}
+
+.col-xs-6:hover .pallino-fine
+{
+    display: block;
+}
+
+.pallino-fine
+{
+    display: none;
 }
